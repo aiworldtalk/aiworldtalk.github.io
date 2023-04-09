@@ -6,10 +6,9 @@ on:
       # 确保这是你正在使用的分支名称
       - main
       
-permissions: read-all|write-all
-
 jobs:
-  LearnData-build:
+  aiworldtalk-build:
+    permissions: read-all|write-all
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
