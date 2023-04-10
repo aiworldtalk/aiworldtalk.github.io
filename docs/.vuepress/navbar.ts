@@ -20,35 +20,13 @@ export default navbar([
     ],
   },
   {
-    text: "应用",
-    icon: "app",
-    prefix: "/",
-    children: [
-      "apps/Applist",
-      { text: "ChatGPT SC", icon: "creative", link: "https://ai.newzone.top/" },
-      { text: "直播手册", icon: "quote", link: "apps/livestreaming/1_obs_basic" },
-      {
-        text: "服务/系统",
-        icon: "any",
-        prefix: "",
-        children: ["services/NAS", "windows/faq"],
-      },
-    ],
-  },
-  {
-    text: "生活",
-    icon: "emmet",
-    prefix: "/family/",
-    children: ["Diet", "Shoppinglist", "Coupon"],
-  },
-  {
     text: "Contact",
     icon: "advance",
     children: [
       { text: "微信", icon: "wechat", link: "https://tc.seoipo.com/wechat.svg" },
-      { text: "Discord", icon: "group", link: "https://discord.gg/PZTQfJ4GjX" },
-      { text: "RSS", icon: "rss", link: "https://newzone.top/rss.xml" },
+      { text: "Discord", icon: "group", link: "#" },
+      { text: "RSS", icon: "rss", link: "#" },
     ],
   },
-  { text: "工具收藏", icon: "tool", link: "https://nav.newzone.top/" },
+  { text: "工具收藏", icon: "tool", link: "#" },
 ]);

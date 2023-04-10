@@ -4,39 +4,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar([
   "/DailyRoutine",
   "/Fitness",
-  // 读书笔记架构更换到 docsify，不能使用相对链接
-  { text: "读书笔记", icon: "read", link: "https://newzone.top/reading/" },
   // 指定显示页面
-  {
-    text: "🧰 应用手册",
-    icon: "",
-    prefix: "/apps/",
-    link: "",
-    collapsible: true,
-    children: [
-      "Applist.md",
-      "ChatGPT.md",
-      "design.md",
-      "AppNotes.md",
-      "Chrome.md",
-      {
-        text: "直播手册",
-        icon: "load",
-        prefix: "livestreaming/",
-        link: "",
-        collapsible: true,
-        children: "structure",
-      },
-    ],
-  },
-  {
-    text: "🌐 页面开发",
-    icon: "",
-    prefix: "/web/",
-    link: "",
-    collapsible: true,
-    children: "structure",
-  },
   {
     text: "🏗️ 网站部署",
     icon: "",
@@ -68,25 +36,9 @@ export default sidebar([
     ],
   },
   {
-    text: "🐋 Linux 服务",
-    icon: "",
-    prefix: "/services/",
-    link: "",
-    collapsible: true,
-    children: "structure",
-  },
-  {
     text: "🪟 系统问题",
     icon: "",
     prefix: "/windows/",
-    link: "",
-    collapsible: true,
-    children: "structure",
-  },
-  {
-    text: "🛖 生活记录",
-    icon: "",
-    prefix: "/family/",
     link: "",
     collapsible: true,
     children: "structure",
