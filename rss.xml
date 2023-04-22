@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
-    <title>LearnData-开源笔记</title>
+    <title>AI视界杂谈</title>
     <link>https://newzone.top/</link>
-    <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
+    <description>记录AI相关知识和工具使用，分享知识，提升自我。</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 10 Apr 2023 16:06:51 GMT</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2023 16:06:51 GMT</lastBuildDate>
+    <pubDate>Sat, 22 Apr 2023 09:55:57 GMT</pubDate>
+    <lastBuildDate>Sat, 22 Apr 2023 09:55:57 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
   </channel>
