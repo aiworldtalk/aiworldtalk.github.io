@@ -3,10 +3,10 @@
 home: true
 layout: BlogHome
 icon: home
-title: 互联网小白
+title: AI工具尝鲜者
 #heroImage: /logo.svg
-heroText: 互联网小白
-tagline: 盛年不重来，一日难再晨
+heroText: AI工具尝鲜者
+tagline: 不负时光，争朝夕。
 bgImage: https://tc.seoipo.com/home-bg-1.jpg
 heroFullScreen: false
 #projects:

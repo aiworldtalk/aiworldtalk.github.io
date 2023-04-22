@@ -4,29 +4,10 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "博客", icon: "blog", link: "/blog" },
   {
-    text: "代码",
-    icon: "code",
-    prefix: "/",
-    children: [
-      "code/Markdown",
-      "code/AutoHotkey",
-      "code/Electron",
-      {
-        text: "页面开发",
-        icon: "vue",
-        prefix: "",
-        children: ["web/VuePress", "web/docsify", "deploy/VPS"],
-      },
-    ],
-  },
-  {
     text: "Contact",
     icon: "advance",
     children: [
-      { text: "微信", icon: "wechat", link: "https://tc.seoipo.com/wechat.svg" },
-      { text: "Discord", icon: "group", link: "#" },
-      { text: "RSS", icon: "rss", link: "#" },
+      { text: "微信", icon: "wechat", link: "/wechat.svg" },
     ],
-  },
-  { text: "工具收藏", icon: "tool", link: "#" },
+  }
 ]);
